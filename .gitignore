@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.venv
+build
+dist
+images/*
+images-with-watermark/*
+!images/.keep
+!images-with-watermark/.keep
+main.spec
